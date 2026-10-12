@@ -1,0 +1,18 @@
+# Virtual environment
+.venv/
+
+# Secrets (kabhi commit nahi)
+.env
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Data aur generated indexes (bade files)
+data/
+chroma_db/
+*.faiss
+
+# OS / editor
+.DS_Store
+.ipynb_checkpoints/
